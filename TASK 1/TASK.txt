@@ -1,0 +1,7 @@
+/*
+Task 1.
+Create a function that iterates form 1 up to 100,
+while outputing "FIZZ" at mulpiples of 3.
+"BUZZ" at multiples of 5.
+and "FIZZBUZZ" at multiples of 3 and 5.
+*/
