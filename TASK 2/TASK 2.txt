@@ -1,0 +1,5 @@
+/*
+Task 2.
+Create a function that reverses string letters.
+If word is 5 letters long or longer reverse letters.
+*/
