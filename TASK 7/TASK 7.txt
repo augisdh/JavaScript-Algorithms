@@ -1,0 +1,9 @@
+/*
+TASK 7.
+
+A number is called Automorphic number if and only if its square ends in the same digits as the number itself.
+Given a number determine if it Automorphic or not.
+
+6 squared is 36 , Ends with the same number's digits which are 6 => Automorphic
+
+*/
