@@ -1,7 +1,7 @@
 "use strict";
 
 const data = {
-	"name": "LT",
+"name": "LT",
 	"size": 10,
 	"nodes": [
 		{
