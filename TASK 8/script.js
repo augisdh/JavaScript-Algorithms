@@ -46,7 +46,9 @@ const data = {
 function consoleNestedObject(obj, parent){
   for (const key in obj) {
     if (typeof obj[key] === 'object') {
-      parent += (obj.name !== undefined) ? ` ${obj.name} -` : ''
+			if (Object.prototype.toString.call(obj) !== '[object Array]') {
+				parent += ` ${obj.name} -`
+			}
       consoleNestedObject(obj[key], parent)
     } else if (key === 'name') {
       console.log(`${parent} ${obj.name} ${obj.size}`)
